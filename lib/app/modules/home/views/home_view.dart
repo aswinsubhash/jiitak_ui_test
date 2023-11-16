@@ -7,8 +7,8 @@ import '../controllers/home_controller.dart';
 import '../widgets/date_picker.dart';
 import '../widgets/list_tile.dart';
 
-class HomeView extends GetResponsiveView<HomeController> {
-  HomeView({super.key});
+class HomeView extends GetView<HomeController> {
+  const HomeView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -78,7 +78,7 @@ class HomeView extends GetResponsiveView<HomeController> {
             child: DatePickerCustom(),
           ),
           const SizedBox(height: 15),
-          const Expanded(
+           Expanded(
             child: ListCustomTile(),
           ),
           const SizedBox(height: 50),

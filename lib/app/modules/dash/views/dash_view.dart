@@ -17,7 +17,7 @@ class DashView extends GetView<DashController> {
   @override
   Widget build(BuildContext context) {
     final pages = [
-      HomeView(),
+      const HomeView(),
       const StampDetailsView(),
       const QrView(),
       const ChatView(),

@@ -6,5 +6,7 @@ class HomeController extends GetxController {
     'assets/images/image_two.png',
     'assets/images/image_one.png',
     'assets/images/image_two.png',
+    'assets/images/image_one.png',
+    'assets/images/image_two.png',
   ];
 }
